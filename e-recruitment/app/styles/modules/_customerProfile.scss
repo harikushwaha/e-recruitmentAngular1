@@ -1,0 +1,234 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _customerProfile.scss $
+ * $Author: Priyam Mittal (PMittal) $
+ * $Date: 2016/08/30 08:53:58EDT $
+ * $Revision: 1.10 $
+ *
+ ******************************************************************************/
+ .customer-profile {
+    background: $dialog-transparent;
+    min-width: 90%;
+    padding: 15px;
+
+    .horizontal-scroll {
+        max-width: 1300px;
+        overflow-y: auto;	
+        padding-left: 8px;
+    }
+
+    .vertical-scroll {
+        min-height: 405px;
+        max-height: 405px;
+        overflow-x: auto;
+    }
+
+    .no-data{
+        min-height: 404px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 405px;
+        background-color: $customer-profile-nodata;
+        max-width: 1300px;
+    }
+
+    .ellipsis {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .user-detail {
+        padding: 12px 20px;
+        background: $customer-profile-info-background;
+
+        .card-media {
+            text-align: center;
+            margin-bottom: 5px;
+            
+            img {
+                max-height: 135px;
+                height: 135px;
+            }
+        }
+
+        h2 {
+            font-size: 11px;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 5px;
+        }
+
+        .header {
+            max-width: 276px;
+        }
+
+        .user-info {
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            word-break: break-all;            
+        }
+    }
+
+    .opportunities-tab {
+        max-width: 1300px;
+
+        .table-column {
+            min-width: 99px;
+            max-width: 100px;
+            word-break: break-all;
+        }
+    }
+
+    .session-tab{
+
+        .column{
+            min-width: 178px;
+            max-width: 179px;
+            word-break: break-all;
+        }
+
+        .amount-column {
+            max-width: 150px;
+        }
+    }
+	
+    .accounts-tab{
+
+        .table-vertical-scroll {
+            max-height: 193px;
+            min-height: 193px;
+            overflow-x: auto;
+        }
+
+        .investment-table {
+            margin-top: 20px;
+            max-width: 1300px;
+
+            .header {
+                position: absolute;
+                font-size: 15px;
+            }
+        }
+
+        .table-column {
+            min-width: 199px;
+            max-width: 200px;
+            word-break: break-all;
+        }
+
+        .no-row {
+            width: 100%;
+            max-height: 193px;
+        }
+
+        .single-table {
+            min-height: 406px;
+            margin-top: 0px;
+        }
+    } 
+
+    .md-dialog-content {
+
+        .layout-row> [flex] {
+            padding: 0.3rem 0.3rem;
+        }
+    }
+
+    .teller {
+        padding: 2px 0px;
+        opacity: 0.6;
+        font-size: 12px;
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        background: $dialog-teller-background;
+        color: $dialog-teller-color;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    md-tabs .md-tab.md-active {
+        color: $md-tab-color;
+    }
+
+    .user-data-grid {
+        margin-left: 2%;
+
+        .customer-table {
+            width: 100%;
+
+            th {
+                margin-bottom: 6px;
+                padding: 15px 10px;
+                background: $customer-table-header-background;
+                border-bottom: 3px solid $dialog-transparent;
+            }
+
+            td {
+                padding: 15px 10px;
+                border: none;
+            }
+
+            .action-button {
+                background: $dialog-button-background;
+                color: $dialog-button-color;
+                font-size: 11px;
+                min-width: 60px;
+                line-height: 17px;
+                min-height: 27px;
+            }
+        }
+    }
+
+    .customer-personal-info {
+
+        .customer-name {
+            min-height: 135px;
+            max-height: 136px;
+            background: $base-primary-color;
+            position: relative;
+			
+            h2 {
+                position: absolute;
+                bottom: 10px;
+                padding: 0 10px;
+                font-size: 26px;
+                left: 8px;
+                color: $base-color;
+                max-width: 98%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+
+        .customer-information {
+            min-height: 318px;
+            background-color: $customer-profile-info-background;
+
+            .no-data {
+                min-height:318px;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 318px;
+            }
+
+            .customer-vertical-scroll {
+                max-height: 319px;
+                overflow-x: auto;
+            }
+
+            .customer-horizontal-scroll {
+                max-width: 337px;
+                word-wrap: break-word;			
+            }
+        }
+    }
+}

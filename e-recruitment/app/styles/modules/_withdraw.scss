@@ -1,0 +1,41 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _withdraw.scss $
+ * $Author: Sankar Lingam (DBD) (lingas) $
+ * $Date: 2016/09/14 11:10:09EDT $
+ * $Revision: 1.14 $
+ *
+ ******************************************************************************/
+.check-keyboard {
+  top: 45%;
+  right: 4%;
+  position: absolute;
+  margin: 0% !important;
+}
+
+.check-user {
+  top: 50%;
+  left: 4%;
+  position: absolute;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.withdraw {
+
+  ul.tabrow li a.disabled {
+    pointer-events: none;
+  }
+
+  ul.tabrow li.active a {
+    pointer-events: none;
+  }
+}
+
+

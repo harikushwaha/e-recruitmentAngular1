@@ -1,0 +1,155 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _terminalHealth.scss $
+ * $Author: Andrew Fontaine (AFontaine) $
+ * $Date: 2016/09/01 16:59:43EDT $
+ * $Revision: 1.8 $
+ *
+ ******************************************************************************/
+.terminal-health {
+  .terminal-health-container {
+    margin: 0;
+    padding: 25px;
+    clear: both;
+  }
+
+  .health-icon {
+    &:before {
+      content: '\25B2';
+      font-size: 1.2em;
+      -webkit-text-stroke: 2px $health-icon-before-color;
+    }
+  }
+
+  .device-health-icon {
+    font-size: 44px;
+    stroke: $health-icon-before-color;
+    stroke-width: 2px;
+  }
+
+  .terminal-info {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  .terminal-info-label {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+
+  .list-device {
+    font-size: 1.5em;
+
+    md-list-item {
+      min-height: 30px;
+      padding: 0;
+
+      .fa {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .device-list {
+    font-size: 18px;
+  }
+
+  .device-reporting {
+    h1 {
+      font-size: 30px;
+    }
+
+    P {
+      font-size: 15px;
+      max-width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+
+  .device {
+    background: inherit;
+  }
+
+  .device .device-healthy {
+    color: $healthy-color;
+    fill: $healthy-color;
+  }
+
+  .device .device-warning {
+    color: $warning-color;
+    fill: $warning-color;
+  }
+
+  .device .device-fatal {
+    color: $fatal-color;
+    fill: $fatal-color;
+  }
+
+  .table-health {
+    font-size: 18px;
+    text-align: right;
+
+    > thead {
+      > tr {
+        > th {
+          border: none;
+        }
+      }
+    }
+
+    > tbody {
+      > tr {
+        > th {
+          border: none;
+        }
+
+        > td {
+          border: none;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:1030px) {
+  .terminal-health {
+    .device-list {
+      font-size: 12px;
+    }
+
+    .device-reporting {
+      p {
+        font-size: 12px;
+      }
+    }
+
+    .table-health {
+      > thead {
+        > tr {
+          > th {
+            font-size: 12px;
+          }
+        }
+      }
+
+      > tbody {
+        > tr {
+          > th {
+            font-size: 12px;
+          }
+
+          > td {
+            border: none;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

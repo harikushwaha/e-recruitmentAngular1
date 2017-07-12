@@ -1,0 +1,169 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _verifyCheck.scss $
+ * $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+ * $Date: 2016/09/30 08:49:45EDT $
+ * $Revision: 1.23 $
+ *
+ ******************************************************************************/
+.verify-check {
+
+  .no-reject-reason {
+    color: $no-reject-reason-color;
+  }
+
+  .check-type-err {
+    color: $check-type-err-color;
+  }
+
+  .verify-check-caption {
+    min-height: 3em;
+  }
+
+  .verify-check-background {
+    position: fixed;
+    top: 6%;
+    bottom: 6%;
+    left: 3%;
+    right: 4%;
+    background-color: $verify-check-background-color;
+    border-radius: 10px;
+  }
+
+  .flipCheck-button {
+    font-size: 1em;
+    background-color: $flipCheck-button-background-color;
+    color: $flipCheck-button-color;
+    display: inline-block;
+
+    &:hover {
+      background-color: $flipCheck-button-background-color-hover;
+      color: $flipCheck-button-color-hover;
+    }
+  }
+
+  .verify-modal {
+    background-color: $wizard-modal-background-color;
+    position: fixed;
+    top: 0.1%;
+    left: 0.1%;
+    height: 100%;
+    width: 100%;
+    color: $wizard-modal-color;
+  }
+
+  .round-box {
+    font-size: 7.5em;
+    opacity: 0.5;
+    color: $scan-check-round-box-color;
+    position: absolute;
+    left: 20%;
+    top: 11%;
+  }
+
+  .img-opacity {
+    opacity: 0.8;
+  }
+
+  .round-box-small {
+    font-size: 2em;
+    opacity: .5;
+    right: 1%;
+    line-height: .1%;
+    bottom: 17%;
+    position: absolute;
+    color: $scan-check-round-box-color;
+  }
+
+  .up-layer2 {
+    z-index: 103;
+  }
+
+  .verify-info-display {
+    display: flex;
+  }
+
+  .check-info {
+    color: $check-info-color;
+  }
+
+  .verify-height {
+    max-height: 21em;
+  }
+
+  .up-layer {
+    z-index: 100;
+  }
+
+  .check-scroll {
+    overflow-y: auto;
+    min-height: 20em;
+    height: 20em;
+    margin-bottom: 2%;
+
+    .scan-check-position {
+      position: absolute;
+      z-index: 50;
+      top: 10%;
+      left: 45%;
+      font-size: x-large;
+      font-weight: bold;
+    }
+
+    .scan-check-margin {
+      margin-left: 1%;
+    }
+
+    .thumbnail {
+      position: relative;
+      box-shadow: none;
+      border: none;
+    }
+
+    .verify-check-caption {
+      min-height: 3em;
+    }
+  }
+
+  .md-select-top {
+    margin-right: 3%;
+    position: absolute;
+    right: 2%;
+    top: 1%;
+  }
+
+  .md-select-value {
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    background-color: $base-primary-color;
+  }
+
+  .md-select-value .md-select-icon {
+    display: none;
+  }
+
+  .scan-check-container {
+    max-width: 24%;
+  }
+
+  .verify-check-container {
+    line-height: normal;
+    background-color: $verify-check-container-background-color;
+  }
+
+  .clear-icon-color {
+    color: $header-icon-color;
+  }
+
+  .checkmark {
+    color: $checkmark-color;
+  }
+
+  .md-select-menu-container {
+    z-index: 201;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preset": "google",
+  "validateQuoteMarks": true,
+  "validateIndentation": 2,
+  "plugins": [
+    "jscs-jsdoc"
+  ],
+  "jsDoc": {
+    "checkAnnotations": {
+      "preset": "jsdoc3",
+      "extra": {
+        "mergedoc": true,
+        "inheritdoc": false,
+        "platformProperty": false
+      }
+    },
+    "checkParamNames": true,
+    "checkRedundantParams": true,
+    "checkRedundantAccess": "enforceLeadingUnderscore",
+    "checkRedundantReturns": true,
+    "checkReturnTypes": true,
+    "checkTypes": "capitalizedNativeCase",
+    "enforceExistence": "exceptExports",
+    "requireParamTypes": true,
+    "requireReturnTypes": true,
+    "leadingUnderscoreAccess": "protected"
+  }
+}

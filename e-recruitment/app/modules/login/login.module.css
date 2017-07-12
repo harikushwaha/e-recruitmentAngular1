@@ -1,0 +1,142 @@
+.loginContainer {
+  width: 350px;
+  border: 1px solid #b3b7c6;
+  margin: 0 auto;
+  background: #eff2f3;
+  box-shadow: 2px 2px 10px #d4d6da;
+  text-align: left;
+  padding: 18px;
+}
+
+.loginContainer label {
+  font-family: 'liberationBold';
+  font-size: 14px;
+}
+
+.loginContainer input {
+  font-family: 'liberationNormal';
+  font-size: 13px;
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+}
+
+.loginContainer .error {
+  border: 1px solid #ff0000 !important;
+}
+
+.loginContainer input[type="checkbox"] {
+  display: none;
+}
+
+.loginContainer input[type="checkbox"] + label span {
+  display: inline-block;
+  height: 25px;
+  vertical-align: middle;
+  background: url(../../images/checkbox_off.png) left top no-repeat;
+  cursor: pointer;
+}
+
+.loginContainer input[type="checkbox"]:checked + label span {
+  background-image: url(../../images/checkbox_on.png);
+}
+
+.loginScreenLogo {
+  width: 316px;
+  height: 38px;
+
+}
+
+.errorMessage {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid red;
+  color: #ff0000;
+  padding: 10px;
+  background: #f0dadb;
+  font-family: 'liberationBold';
+  font-size: 12px;
+}
+
+.loginButton {
+   
+    float:right; 
+  
+
+}
+
+.login-remember {
+    margin-top:10px;
+    vertical-align:bottom;
+}
+.login-remember .checkBoxText {
+    font-size:14px;
+    padding-left:0px;
+}
+
+/* .loginButton {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 6px 20px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font-family: 'liberationNormal';
+  font-size: 13px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+  transition: background-color .2s ease-out;
+  background-clip: padding-box; 
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+  0 2px 2px -1px rgba(0, 0, 0, .5),
+  0 1px 0 rgba(255, 255, 255, .3) inset;
+  text-shadow: 0 1px 0 #000;
+}*/
+
+.blue {
+  background-color: #269CE9;
+  border-color: #269CE9;
+  color:#fff;
+}
+
+.login-btn{
+  background-color: #000;
+  border-color: #666;
+  color:#fff;
+}
+
+.gray {
+  background-color: #d3d3d3;
+  border-color: #d3d3d3;
+}
+
+
+.login-container {
+  width: 350px;
+  border: 1px solid #b3b7c6;
+  margin: 0 auto;
+  background: #eff2f3;
+  box-shadow: 2px 2px 10px #d4d6da;
+  text-align: left;
+  padding: 18px;
+  margin-top:15%;
+    
+  }
+
+.error-wrap{
+   min-height:50px;
+}
+    .login-container .md-errors-spacer {
+        min-height:10px;
+    }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #eff2f3 inset !important;
+}
+
+

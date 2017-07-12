@@ -1,0 +1,20 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _receiptOptions.scss $
+ * $Author: Matthew Kirk (mkirk) $
+ * $Date: 2016/08/18 12:58:34EDT $
+ * $Revision: 1.1 $
+ *
+ ******************************************************************************/
+.ecommLabel {
+    z-index: 250;
+}
+
+.md-virtual-repeat-container.md-autocomplete-suggestions-container {
+    max-height: 210px !important;
+    z-index: 1100;
+}

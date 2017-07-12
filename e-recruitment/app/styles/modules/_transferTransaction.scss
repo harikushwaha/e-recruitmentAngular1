@@ -1,0 +1,49 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _transferTransaction.scss $
+ * $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+ * $Date: 2016/08/17 09:25:01EDT $
+ * $Revision: 1.4 $
+ *
+ ******************************************************************************/
+.transfer-transaction {
+
+  .account-info-textbox {
+    font-size: 18px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 5px;
+    padding-bottom: 0;
+    padding-top: 20px;
+    border-radius: 0px;
+  }
+
+  .account-info-dropdown {
+    font-size: 17px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 5px;
+    padding-bottom: 0;
+    border-radius: 0px;
+    width: 220px;
+  }
+
+  .md-select-value {
+    width: 150px;
+  }
+
+  .account-btn-wrap {
+    margin-top: 5px;
+  }
+
+  .check-circle {
+    color: $check-circle-sign-color;
+    top: 25px;
+    right: 10px;
+    position: absolute;
+  }
+}

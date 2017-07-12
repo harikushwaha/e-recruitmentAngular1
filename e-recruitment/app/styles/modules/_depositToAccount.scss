@@ -1,0 +1,22 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _depositToAccount.scss $
+ * $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+ * $Date: 2016/09/14 04:55:35EDT $
+ * $Revision: 1.6 $
+ *
+ ******************************************************************************/
+.deposit-account {
+
+  .deposit-info-container {
+    border: 1px solid $form-border-color;
+  }
+
+  .check-circle-icon {
+    color: $check-circle-sign-color;
+  }
+}

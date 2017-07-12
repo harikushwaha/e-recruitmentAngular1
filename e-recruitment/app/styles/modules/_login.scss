@@ -1,0 +1,51 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _login.scss $
+ * $Author: Nimit Jain (NJain) $
+ * $Date: 2016/08/23 10:15:04EDT $
+ * $Revision: 1.5 $
+ *
+ ******************************************************************************/
+.login {
+    md-input-container .md-input {
+        height: 3rem;
+        margin-bottom: 15px;
+    }
+	
+    input[type]:focus {
+        border: none;
+        border-bottom: 1px solid $login-input-focus-border;
+        box-shadow: none;
+    }
+	
+    .login-remember {
+        margin-top: 10px;
+        vertical-align: bottom;
+    }
+
+    .login-button{
+        float:right;
+        background-color: $login-button-default;
+        border-color: $login-button-default;
+        color:$login-button-text-color;
+        &:hover{
+            background-color: $login-button-default;
+        }
+    }
+
+    .login-button-click{
+        float: right;
+        background-color: $login-button-disable-color;
+        border-color: $login-button-disable-color;
+    }
+
+    .username-password-input {
+        border-color: $username-password-input !important;
+    }
+
+}
+

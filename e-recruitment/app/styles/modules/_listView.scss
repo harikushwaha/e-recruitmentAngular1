@@ -1,0 +1,94 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _listView.scss $
+ * $Author: Priyam Mittal (PMittal) $
+ * $Date: 2016/07/27 10:06:26EDT $
+ * $Revision: 1.2 $
+ *
+ ******************************************************************************/
+.app-list {
+
+    .more {
+        position: absolute;
+        right: -14px;
+        top: 5px;
+    }
+
+    .branch-wrap {
+        position: relative;
+
+        .drop-down {
+            position: absolute;
+            right: -14px;
+            top: -10px;
+            z-index: 999;
+        }
+    }
+
+    .md-button {
+        text-transform: none;
+        border-radius: 0px;
+        margin: 0px;
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+        background: $app-list-btn-bg;
+        color: $default-text;
+
+        .value {
+            margin-right: 30px;
+        }
+
+        .fa-angle-right {
+            margin-top: 8px;
+            font-size: 20px;
+            margin-left: 12px;
+        }
+    }
+
+    a.link-black {
+        padding-top: 8px;
+        display: inline-block;
+        color: $default-text;
+    }
+}
+
+.md-select-value {
+    overflow: hidden;
+    
+	.md-checkbox {
+        display: none;
+    }
+}
+
+.md-select-value md-checkbox {
+    display: none;
+}
+
+.md-button.icon-link, .md-icon-button.icon-link {
+    display: inline-block;
+    margin: -4px 0 0;
+    padding: 5px;
+    min-width: 30px;
+    min-height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.btn-default {
+    font-size: 11px;
+    padding: 0.3rem 0.6rem;
+}
+
+.btn-layer {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    min-width: 100px;
+    border-radius: 0px;
+    z-index: 9;
+}

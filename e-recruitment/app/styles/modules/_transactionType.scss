@@ -1,0 +1,60 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _transactionType.scss $
+ * $Author: Duke Wang (DWang) $
+ * $Date: 2016/09/09 15:27:25EDT $
+ * $Revision: 1.6 $
+ *
+ ******************************************************************************/
+.transaction-type {
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .add-transaction-row {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .add-transaction-col {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .button-transaction-select-span {
+        display: block;
+        position: absolute;
+        top: 5px;
+    }
+
+    .button-close-session {
+        height: 119px;
+        line-height: 100px;
+        width: 100%;
+    }
+
+    .advice-opp-box {
+        border: 2px solid $advice-opp-box-border-color;
+        margin: 14px -4px 3px 12px;
+        font-size: 38px;
+    }
+
+    .md-button.ui-button {
+            &[disabled] {
+                background-color: $base-primary-color;
+                color: $base-ui-button-color !important;
+            }
+
+            &:hover, &:active {
+                &:not([disabled]) {
+                    background-color: $base-button-background-color;
+                }
+          }
+    }
+}

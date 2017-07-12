@@ -1,0 +1,44 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _billPayment.scss $
+ * $Author: Sankar Lingam (DBD) (lingas) $
+ * $Date: 2016/08/18 11:58:05EDT $
+ * $Revision: 1.3 $
+ *
+ ******************************************************************************/
+.payment-disclaimer {
+  width: 100%;
+
+  .disclaimer-frame {
+    min-height: 250px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .disclaimer-content {
+    margin-bottom: 50px;
+  }
+
+  .text-disclaimer-fee {
+    float: left;
+  }
+
+  .button-disclaimer-confirm {
+    width: 100%;
+    text-align: end;
+  }
+
+  .button-disclaimer-confirmed {
+    background-color: #E4F4EB;
+    color: green;
+    font-weight: bold;
+  }
+
+  .bill-payment-button-wrap {
+    margin: 50px 0 0 0;
+  }
+}

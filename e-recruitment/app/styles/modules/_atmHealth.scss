@@ -1,0 +1,86 @@
+﻿.atm-health {
+
+  .health-overlay {
+    background-color: $base-primary-color;
+    z-index: 1002;
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .device-health-icon {
+    stroke: black;
+    stroke-width: 2px;
+  }
+
+  .terminal-infomation {
+    margin-top: 1%;
+  }
+
+  .terminal-information-label {
+    margin-top: 7%;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .device-label {
+    font-weight: bold;
+  }
+
+  .listed-device {
+    font-size: 1.5em;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -ms-column-count: 3;
+    column-count: 3;
+  }
+
+  .device {
+    background: inherit;
+  }
+
+  .device.device-healthy {
+    color: $healthy-color;
+    fill: $healthy-color;
+  }
+
+  .device.device-warning {
+    color: $warning-color;
+    fill: $warning-color;
+  }
+
+  .device.device-fatal {
+    color: $fatal-color;
+    fill: $fatal-color;
+  }
+
+  .table-health {
+    font-size: 1.2em;
+    text-align: right;
+  }
+
+  .health-icon-position {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .unstyled-list {
+    padding-left: 1px;
+    list-style: none;
+  }
+
+  .table-health > thead > tr > th, .table-health > tbody > tr > th, .table-health > tbody > tr > td {
+    border: none;
+  }
+
+  .cash-table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cash-table-padding > thead > tr > th,
+  .cash-table-padding > tbody > tr > th {
+    padding: 5px;
+  }
+}

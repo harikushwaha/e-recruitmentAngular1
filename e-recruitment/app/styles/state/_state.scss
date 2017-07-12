@@ -1,0 +1,150 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _state.scss $
+ * $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+ * $Date: 2016/08/18 15:57:26EDT $
+ * $Revision: 1.7 $
+ *
+ ******************************************************************************/
+ .is-assist-progress {
+    border: 3px solid $dashboard-terminal-assist-progress-border;
+
+    .transparent-bg {
+        background: $dashboard-terminal-assist-progress-background;
+        opacity: 0.3;
+    }
+
+    .teller {
+        background: $dashboard-terminal-assist-progress-background;
+        color: $dashboard-terminal-assist-progress-color;
+        border: 1px solid $dashboard-terminal-assist-progress-border;
+    }
+
+    .transaction-details {
+        color: $dashboard-terminal-assist-progress-color;
+    }
+}
+
+.is-help-alert {
+    border: 3px solid $dashboard-terminal-help-alert-border;
+
+    .transparent-bg {
+        background: $dashboard-terminal-help-alert-background;
+        opacity: 0.3;
+    }
+
+    .teller {
+        background: $dashboard-terminal-help-alert-background;
+        color: $dashboard-terminal-help-alert-color;
+        border: 1px solid $dashboard-terminal-help-alert-border;
+    }
+
+    .transaction-details {
+        color: $dashboard-terminal-help-alert-color;
+    }
+}
+
+.is-idle {
+    border: 3px solid $dashboard-terminal-idle-border;
+
+    .transparent-bg {
+        background: $dashboard-terminal-idle-background;
+        opacity: 0.3;
+    }
+
+    .teller {
+        background: $dashboard-terminal-idle-background;
+        color: $dashboard-terminal-idle-color;
+        border: 1px solid $dashboard-terminal-idle-border;
+    }
+
+    .transaction-details {
+        color: $dashboard-terminal-idle-color;
+    }
+}
+
+.is-withdrawal-override {
+    border: 3px solid $dashboard-terminal-withdrawal-override-border;
+;
+
+    .transparent-bg {
+        background: $dashboard-terminal-withdrawal-override-background;
+        opacity: 0.3;
+    }
+
+    .teller {
+        background: $dashboard-terminal-withdrawal-override-background;
+        color: $dashboard-terminal-withdrawal-override-color;
+        border: 1px solid $dashboard-terminal-withdrawal-override-border;
+    }
+
+    .transaction-details {
+        color: $dashboard-terminal-withdrawal-override-color;
+    }
+}
+
+.is-terminalAssistInSession {
+    border: 3px solid $dashboard-terminal-terminalAssistInSession-border;
+
+    .transparent-bg {
+        background: $dashboard-terminal-terminalAssistInSession-background;
+        opacity: 0.3;
+    }
+
+    .teller {
+        background: $dashboard-terminal-terminalAssistInSession-background;
+        color: $dashboard-terminal-terminalAssistInSession-color;
+        border: 1px solid $dashboard-terminal-terminalAssistInSession-border;
+    }
+
+    .transaction-details {
+        color: $dashboard-terminal-terminalAssistInSession-color;
+    }
+}
+
+.is-help-accepted {
+    border: 3px dashed $dashboard-terminal-help-accepted-border;
+
+    .transparent-bg {
+        background: $dashboard-terminal-help-accepted-background;
+        opacity: 0.3;
+    }
+
+    .teller {
+        background: $dashboard-terminal-help-accepted-background;
+        color: $dashboard-terminal-help-accepted-color;
+        border: 1px solid $dashboard-terminal-help-accepted-border;
+    }
+
+    .transaction-details {
+        color: $dashboard-terminal-help-accepted-color;
+    }
+}
+
+.is-error-border {
+    border-bottom: 2px solid $error-border-color;
+}  
+
+.is-view-selected {
+    color: $quickview-layout-selected;
+}
+
+.is-view-not-selected {
+    color: $quickview-layout-not-selected;
+}
+
+ .warning {
+    border: 4px solid yellow;
+  }
+
+  .healthy {
+    border: 4px solid green;
+  }
+
+  .fatal {
+    border: 4px solid red;
+  }

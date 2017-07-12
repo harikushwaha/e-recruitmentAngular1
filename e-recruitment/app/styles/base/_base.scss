@@ -1,0 +1,308 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _base.scss $
+ * $Author: Sankar Lingam (DBD) (lingas) $
+ * $Date: 2016/09/29 12:57:36EDT $
+ * $Revision: 1.42 $
+ *
+ ******************************************************************************/
+.container.xpression {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.right {
+  float: right !important;
+}
+
+.left {
+  float: left !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.md-title {
+  text-align: center;
+}
+
+.drop-down {
+  vertical-align: bottom;
+}
+
+.disabled {
+  opacity: 0.2;
+}
+
+md-option .md-text {
+  font-size: 13px;
+}
+
+.no-teller {
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+md-menu-content .md-button.icon-link {
+  vertical-align: middle;
+}
+
+md-menu-content .back-link {
+  font-size: 15px;
+}
+
+md-menu-content .material-icons {
+  vertical-align: middle;
+  margin-top: -4px;
+  max-width: 25px;
+}
+
+md-checkbox.md-default-theme.md-checked .md-icon, md-checkbox.md-checked .md-icon {
+  background-color: $base-color;
+}
+
+md-backdrop.md-opaque {
+  position: fixed;
+}
+
+.terminal-dialog {
+  width: 95%;
+  max-width: 95%;
+  min-width: 95%;
+  height: 100%;
+}
+
+md-tabs.md-default-theme .md-tab, md-tabs .md-tab {
+  color: $base-primary-color;
+}
+
+.wizard-data-format-error {
+  color: $error-code-color;
+  margin-top: 5px;
+}
+
+.container-layout {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ui-button[disabled] {
+  background-color: $base-primary-color;
+  color: $base-ui-button-color !important;
+}
+
+.button-medium-size, .button-large-size, .button-block-size, .button-close-session {
+  border-radius: 0px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  font-size: 16px;
+  background: $base-button-background-color;
+  color: $base-button-color;
+  text-align: center;
+  text-shadow: 0 1px 0 $button-text-shadow-color;
+  margin-top: 5px;
+  height: 54px;
+}
+
+.button-block-size {
+  display: block;
+  width: 100%;
+}
+
+.button-large-size {
+  width: 248px;
+  display: inline-block;
+}
+
+.button-medium-size {
+  width: 185px;
+  display: inline-block;
+}
+
+.md-button {
+  text-transform: none;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.fa-circle-control {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.input-textbox-default {
+  font-size: 18px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 5px;
+  padding-bottom: 0;
+  padding-top: 20px;
+  border-radius: 0px;
+}
+
+.dropdown-default {
+  font-size: 17px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 5px;
+  padding-bottom: 0;
+  border-radius: 0px;
+  width: 220px;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .form-control:focus {
+  outline: none;
+  box-shadow: 0 0 5px $base-primary-color;
+}
+
+.container.xpression {
+  margin: 0px auto;
+  padding-top: 15px;
+  min-height: 85vh;
+}
+
+md-toast {
+  position: fixed;
+  padding: 0px;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.default-error {
+  color: $error-code-color;
+  opacity: 0;
+}
+
+input[type]:focus {
+  border: none;
+  border-bottom: 1px solid $login-input-focus-border;
+  box-shadow: none;
+}
+
+.button-resizable {
+  width: auto !important;
+}
+
+.check-container {
+  padding: 0px;
+  padding-bottom: 0;
+  line-height: normal;
+  margin-bottom: 10px;
+  background-color: $account-transfer-md-input-container;
+}
+
+.page-content-wrapper {
+  width: 100%;
+}
+
+.horizontal-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid $horizontal-border-color;
+  border-top-color: $dialog-default-btn-bg;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.button-default {
+  color: $button-default-color;
+  background-color: $header-color;
+  border-color: $base-primary-color;
+  margin: 0;
+}
+
+.button-default[disabled] {
+  background-color: $base-primary-color;
+  opacity: 0.5 !important;
+  color: white !important;
+}
+
+.md-button.ui-button {
+  &[disabled] {
+    background-color: $base-primary-color;
+    color: $base-ui-button-color !important;
+  }
+
+  &:hover, &:active {
+    &:not([disabled]) {
+      background-color: $base-button-background-color;
+    }
+  }
+}
+
+.delayed-appearance {
+  transition-delay: 1s;
+}
+
+.available-teller-list {
+  max-height: 100px;
+  max-width: 250px;
+  overflow-y: scroll;
+
+  .teller-name {
+    font-size: 12px;
+  }
+}
+
+.full-width {
+  max-width: 100%;
+}
+
+md-option {
+    max-width: 293px;
+}
+
+/* Added for TG modal popup in VerifyCheck.html while validating and zooming the check */
+.md-dialog-container {
+  z-index: 10000;
+}
+
+md-backdrop.md-dialog-backdrop {
+  z-index: 101;
+}

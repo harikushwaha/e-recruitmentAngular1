@@ -1,0 +1,47 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: xpression.scss $
+ * $Author: Andrew Fontaine (AFontaine) $
+ * $Date: 2016/09/22 10:34:47EDT $
+ * $Revision: 1.36 $
+ *
+ ******************************************************************************/
+// themes;
+@import "themes/_default";
+// base
+@import "base/_base";
+@import "base/_typography";
+//modules
+@import "modules/_listView";
+@import "modules/_login";
+@import "modules/_header";
+@import "modules/_sidenav";
+@import "modules/_quickView";
+@import "modules/_terminal";
+@import "modules/_terminalHealth";
+@import "modules/_customerProfile";
+@import "modules/_billMix";
+@import "modules/_ssn";
+@import "modules/_receiptOptions";
+@import "modules/_withdraw";
+@import "modules/_verifyCheck";
+@import "modules/_wizard";
+@import "modules/_scanCheck";
+@import "modules/_scanDeposit";
+@import "modules/_billPayment";
+@import "modules/_transferTransaction";
+@import "modules/_transferAmount";
+@import "modules/_transactionType";
+@import "modules/_customerInfo";
+@import "modules/_customerId";
+@import "modules/_confirmFee";
+@import "modules/_customerInformation";
+@import "modules/_atmHealth";
+@import "modules/_spinnerModal";
+@import "modules/_depositToAccount";
+// state
+@import "state/_state";

@@ -1,0 +1,256 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _header.scss $
+ * $Author: Nimit Jain (NJain) $
+ * $Date: 2016/09/20 05:09:01EDT $
+ * $Revision: 1.20 $
+ *
+ ******************************************************************************/
+.header {
+
+    .menu-icon {
+        margin-top: 5px;
+    }
+
+    .xpression-nav {
+        height: 81px;
+        line-height: normal;
+        padding-top: 10px;
+        background: $header-background;
+        color: $header-color;
+
+        .xpression-logo {
+            font-size: 1.7rem;
+            float: left;
+            color: $header-color;
+            padding-left: 10px;
+        }
+
+        .brand-title {
+            display: block;
+            font-size: 1rem;
+            top: 48px;
+            position: absolute;
+            max-width: 40%;
+            text-overflow: ellipsis;
+            word-wrap: break-word;
+            overflow: hidden;
+            padding-left: 10px;
+
+            .user-info {
+                font-size: 9px;
+                font-weight: 400;
+            }
+
+            .md-button {
+                min-height: 20px;
+                min-width: 20px;
+                padding: 0px;
+                margin: 0px;
+
+                .fa-signal {
+                    font-size: 16px;
+                    height: 10px;
+                    line-height: 10px;
+                }
+            }
+
+            .more {
+                min-width: 3px;
+                padding: 0px;
+                margin: 5px 0px;
+                vertical-align: middle;
+
+                .more-icon {
+                    height: 10px;
+                    line-height: 10px;
+                    font-size: 17px;
+                }
+            }
+        }
+
+        .branch-done {
+            margin-top: 10px;
+            font-size: 18px;
+            float: right;
+            text-decoration: none;
+            color: $branch-done;
+        }
+
+         .dashboard-refresh-button {
+           margin-top: 0px;
+           vertical-align:top;
+           font-size:16px;
+           padding-top: 6px;
+        }
+
+        .quickview-refresh-button {
+            margin-top: 7px;
+        }
+
+        .material-icons {
+            color: $header-icon-color;
+        }
+
+        .rightnav {
+            position: absolute;
+            right: -25px;
+            top: 0px;
+            background: $base-color;
+            
+			.md-button {
+                padding: 0px;
+                margin: 0px;
+                min-width: 10px;
+            }
+        }
+        
+		.user-info {
+            float: right;
+            min-width: auto;
+            margin-top: 0px!important;
+            font-size: 14px;
+
+            span.user-wrap {
+                height: 35px;
+                display: inline-block;
+                vertical-align: middle;
+                padding-top: 12px;
+            }
+        }
+    }
+
+    .search-bar {
+        height: 34px;
+        position: relative;
+
+        .search-filter {
+
+            .md-select-value {
+                border: 1px solid $border-color;
+                color: $default-text-light;
+                background-image: none;
+            }
+
+            .teller-dropdown {
+
+                .md-select-value .md-select-icon {
+                    display: none;
+                }				
+            }
+        }
+
+        .autocomplete {
+            max-height: 2.12rem;
+            font-size: 12px;
+        }
+
+        md-input-container {
+            width: 100%;
+            margin-top:0px;
+            border: 1px solid $border-color;
+            color: $default-text-light;
+            background: $base-color;
+            
+            .md-text {
+                font-size: 12px;
+                padding: 14px;
+            }
+        }
+
+        .input-field input[type=search] {
+            padding-left: 0.4rem;
+            padding-right: 0.1rem;
+            height: 36px;
+            width: 100%;
+            color:$input-search-color;
+            -webkit-appearance: none;
+            border-radius: 0;
+            border: 0px;
+            border-width: 0px;
+
+            &:focus {
+                outline-color:none;
+                outline:none;
+                padding:0px 0.1rem 0 0.4rem;
+            }
+        }
+
+        .search-label {
+            border-radius: 0px;
+            min-height: 36px;
+            height: 36px;
+            top: -6px;
+            background: $search-btn-bg;
+            right:2px;
+			
+            &:hover {
+                background: $search-btn-bg;
+            }
+            
+            .search-label.md-button:not([disabled]):hover {
+                background: $search-btn-bg;
+            }
+            
+            i {
+                height: 34px;
+                line-height: 34px;
+            }
+        }
+    }
+    
+	.md-sidenav-right {
+        top: 0px;
+        position: fixed;
+        padding: 10px;
+        width: 350px;
+        background:$base-color;
+		.branch-wrap {
+            position: relative;
+        }
+        
+		md-content {
+            margin-top: 10px;
+        }
+        
+		form {
+            margin-bottom: 0px;
+        }
+        
+		.branch-name {
+            padding-left: 30px;
+            
+			span.value {
+                margin-left: 80px;
+            }
+        }
+        
+		.logout {
+            margin-top: 20px;
+            
+			a {
+                font-size: 20px;
+                color: $logout-link;
+            }
+        }
+    }
+    .header-icons {
+        min-width: 13px;
+        padding-left: 0px;
+        margin: 0px;
+        padding-right: 0px;
+        margin-top: 5px;
+    }
+
+    .right-navigation-icon {
+        min-width: 13px;
+        padding-left: 0px;
+        margin: 0px;
+        padding-right: 0px;
+        margin-top: 3px;
+    }
+}

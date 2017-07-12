@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Reset CSS*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearRight {
+  clear: right;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.centreText {
+  text-align: center;
+}
+
+.centerAlign {
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 18px 0 0 10px;
+}
+
+.container {
+  width: auto;
+  margin: auto;
+  margin: 10px 5px;
+}
+
+.marginLeft20 {
+  margin-left: 20px;
+}
+
+.marginLeft12 {
+  margin-left: 12px;
+}
+
+.marginRight12 {
+  margin-right: 12px;
+}
+
+.margintop10 {
+  margin-top: 10px;
+}
+
+.checkBoxText {
+  font-family: 'liberationNormal' !important;
+  font-weight: normal;
+  padding-left: 26px;
+  width: 130px;
+  font-size: 11px;
+  padding-top: 9px;
+}
+
+.fontSize16 {
+  font-size: 16px;
+}
+
+/*-------------Header--------------*/
+.globalheader {
+  background: #222222;
+  min-height: 78px;
+}
+
+.loggedUserContainerBox {
+  float: right;
+  margin: 25px 15px 10px 0;
+  min-width: 380px;
+}
+
+.loggedUser {
+  color: #ffffff !important;
+  font-family: 'liberationBold';
+  font-size: 14px;
+  margin-top: 13px;
+}
+
+.loginLogoutLink {
+  color: #999999 !important;
+  text-decoration: underline;
+}
+
+.loginLogoutLink:hover {
+  color: #999999;
+  text-decoration: none;
+}
+
+.alertIcon {
+  background: url('../images/alertErrorHomeIcon.png') no-repeat -3px -2px;
+  position: relative;
+  z-index: 0;
+}
+
+.errorIcon {
+  background: url('../images/alertErrorHomeIcon.png') no-repeat -44px -2px;
+  z-index: 1;
+}
+
+.homeIcon {
+  background: url('../images/alertErrorHomeIcon.png') no-repeat -86px -2px;
+}
+
+.warningIcon {
+  background: url('../images/alertErrorHomeIcon.png') no-repeat -128px -2px;
+  position: relative;
+}
+
+.alertIcon, .errorIcon, .homeIcon, .warningIcon {
+  height: 38px;
+  width: 35px;
+  position: relative;
+}
+
+.alertbubble {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -13px;
+  border-radius: 21px;
+  left: -12px;
+  border: 1px solid Red;
+  background: #ffffff;
+  display: block;
+  color: #ff0000;
+}
+
+.alertbubble span {
+  text-align: center;
+  margin-top: 4px;
+  display: block;
+  font-family: 'liberationBold';
+}
+
+.connectionIcon {
+    font-size: 35px;
+}
+
+.disconnected {
+    color: gray;
+}
+
+.connected {
+    color: white;
+}
+
+/*-----------------------------DashBoard----------------------*/
+
+.terminalContainer {
+
+  padding: 8px;
+}
+
+/*------------------------Red-----------------------------*/
+
+.terminalAssistRequest {
+  border: 9px solid #ff0000;
+  background: #ffffff;
+  border-radius: 10px;
+  moz-border-radius: 10px;
+  padding-bottom: 5px;
+  webkit-border-radius: 10px;
+}
+
+.terminalAssistRequest .atmRequestContainer {
+  background: #f6bebe;
+  border: 2px solid #ff0000;
+
+}
+
+.terminalAssistRequest .atmRequestMessage {
+  font-family: 'liberationBold';
+  font-size: 13px;
+  color: #FF0000 !important;
+}
+
+.terminalAssistRequest .fontNormal {
+  font-family: 'liberationNormal';
+  color: #FF0000 !important;
+
+}
+
+.atmRequestContainer {
+  border-radius: 6px;
+  height: 80px;
+  width: auto;
+  cursor: pointer;
+  margin-left: 110px;
+  border: 1px solid #ccc;
+}
+
+.customerProfile {
+  background: #ededed;
+  height: 150px;
+  padding: 16px 6px 4px 7px;
+}
+
+.terminalStatus {
+  padding: 6px 4px 0 0;
+}
+
+.statusOk {
+  background: url(../images/ok.png) no-repeat #f3f3f3 center;
+  width: 90px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #cccccc;
+}
+
+.atmRequestMessage {
+  font-family: 'liberationBold';
+  font-size: 13px;
+  color: #ff0000 !important;
+}
+
+.fontNormal {
+  font-family: 'liberationNormal';
+  color: #ff0000 !important;
+
+}
+
+.fontBold {
+  font-family: 'liberationBold';
+
+}
+
+.receipt-value {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*-----------------Customer Terminal tab--------------------------*/
+
+.customerTerminalTabContainer {
+  background: #ebebeb !important;
+  height: 62px;
+  padding: 15px 10px 0px 10px;
+}
+
+.tabActive {
+  background: url('../images/tabBgActive.png') repeat !important;
+  cursor: pointer;
+
+}
+
+.tabNotactive {
+  background: url('../images/tabBgNotActive.png') repeat !important;
+}
+
+.tabActive, .tabNotactive {
+  font-family: 'liberationBold';
+  font-size: 22px;
+  color: #fff !important;
+  position: relative;
+  height: 47px;
+  width: 100%;
+  float: left;
+  line-height: 2;
+  text-align: center;
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.tabActive span, .tabNotactive span {
+  color: #ffffff !important;
+}
+
+.tabActive .arrow {
+  background: url('../images/blueArrow.png') repeat !important;
+}
+
+.tabActive .arrow {
+  position: absolute;
+  right: 10px;
+  bottom: -24px;
+  width: 50px;
+  height: 28px;
+  z-index: 2;
+}
+
+.terminalSubHeading {
+  color: #242424;
+  font-family: 'liberationBold';
+  font-size: 18px;
+  text-shadow: 0px 1px 1px #FFF;
+}
+
+/*-------font face-------------*/
+@font-face {
+  font-family: 'liberation_italic';
+  src: url('fonts/LiberationItalic/LiberationSans-Italic-webfont.eot');
+  src: url('fonts/LiberationItalic/LiberationSans-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LiberationItalic/LiberationSans-Italic-webfont.woff') format('woff'), url('fonts/LiberationItalic/LiberationSans-Italic-webfont.ttf') format('truetype'), url('fonts/LiberationItalic/LiberationSans-Italic-webfont.svg#liberation_sansitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'liberationBold';
+  src: url('fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.eot');
+  src: url('fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), /* url('../css/fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.woff') format('woff'),*/ url('fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.ttf') format('truetype'), url('fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.svg#liberation_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'liberationNormal';
+  src: url('fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.eot');
+  src: url('fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), /*url('../css/fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.woff') format('woff'),*/ url('fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.ttf') format('truetype'), url('fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.svg#liberation_sans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------*/
+.displayNone {
+  display: none;
+}
+
+.backArrow {
+  height: 30px;
+  width: 11px;
+}
+
+.tagline {
+  bottom: -12px;
+  color: #fff;
+  font-size: 13px;
+  left: 20px;
+  position: absolute;
+
+}

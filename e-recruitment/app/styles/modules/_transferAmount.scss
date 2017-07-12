@@ -1,0 +1,49 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _transferAmount.scss $
+ * $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+ * $Date: 2016/08/17 09:25:03EDT $
+ * $Revision: 1.4 $
+ *
+ ******************************************************************************/
+
+.transfer-amount {
+  .transfer-amount-layout {
+    max-width: 92%;
+    min-width: 550px;
+  }
+
+  .transfer-amount-caption-text {
+    font-size: 14px;
+    color: $textbox-control-color;
+  }
+
+  .transfer-amount-label-text {
+    margin: 10px 0px;
+    color: $textbox-control-color;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .transfer-button-wrap {
+    margin-top: 60px;
+
+    .amount-info-textbox {
+      font-size: 18px;
+      height: 50px;
+      display: inline-block;
+      margin-top: 5px;
+      padding-bottom: 0;
+      padding-top: 20px;
+    }
+
+    .active-keypad-button-margin {
+      padding-top: 15px;
+    }
+  }
+}

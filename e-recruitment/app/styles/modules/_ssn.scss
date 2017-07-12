@@ -1,0 +1,34 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _ssn.scss $
+ * $Author: Andrew Fontaine (AFontaine) $
+ * $Date: 2016/09/20 10:56:02EDT $
+ * $Revision: 1.28 $
+ *
+ ******************************************************************************/
+.ssn {
+  input:focus {
+    box-shadow: none;
+  }
+
+  .check-circle-icon {
+    color: $check-circle-sign-color;
+  }
+
+  .content-copy-color {
+    color: $white;
+  }
+
+  .info-text {
+    color: $generic-hover;
+    font-family: sans-serif;
+  }
+
+  .keyboard-icon:hover, .keyboard-icon:focus, .keyboard-icon.focus {
+    color: $keyboard-icon-color;
+  }
+}

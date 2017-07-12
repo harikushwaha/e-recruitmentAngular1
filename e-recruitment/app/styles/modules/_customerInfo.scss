@@ -1,0 +1,54 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _customerInfo.scss $
+ * $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+ * $Date: 2016/08/17 09:25:02EDT $
+ * $Revision: 1.3 $
+ *
+ ******************************************************************************/
+.customerinfo {
+
+  .textbox-account-info {
+    font-size: 18px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 5px;
+    padding-bottom: 0;
+    padding-top: 20px;
+    border-radius: 0px;
+  }
+
+  .dynamic-text-size {
+    width: 302px;
+  }
+
+  .button-next {
+    border-radius: 0px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    font-size: 16px;
+    background: $base-button-background-color;
+    color: $base-button-color;
+    text-align: center;
+    text-shadow: 0 1px 0 $button-text-shadow-color;
+    margin-top: 5px;
+    height: 54px;
+    width: 266px;
+    display: inline-block;
+  }
+
+  .button-next[disabled] {
+    background-color: $base-primary-color !important;
+    color: $base-ui-button-color !important;
+  }
+
+  .place-button-end {
+    text-align: end;
+    width: 100%;
+  }
+}

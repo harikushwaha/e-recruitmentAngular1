@@ -1,0 +1,181 @@
+﻿/*****************************************************************************
+*
+* COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+*                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+*                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+*
+* $Source: _scanDeposit.scss $
+* $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+* $Date: 2016/09/26 10:21:40EDT $
+* $Revision: 1.13 $
+*
+******************************************************************************/
+.scan-deposit {
+
+  .md-select-value {
+    border-bottom-style: none;
+    border-bottom-width: 0.1%;
+    background-color: $base-primary-color;
+  }
+
+  .md-select-value .md-select-icon {
+    display: none;
+  }
+
+  .scan-cash-count {
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    left: 18%;
+    font-size: 2em;
+  }
+
+  .rejected {
+    color: $error-code-color;
+  }
+
+  .verify-check-background {
+    position: fixed;
+    top: 6%;
+    bottom: 6%;
+    left: 3%;
+    right: 4%;
+    background-color: $verify-check-background-color;
+    border-radius: 1%;
+  }
+
+  .no-reject-reason {
+    color: $no-reject-reason-color;
+  }
+
+  .clear-icon-color {
+    color: $header-icon-color;
+  }
+
+  .verify-height {
+    max-height: 22em;
+  }
+
+  .scan-deposit-cash {
+    border: 3px solid;
+    border-radius: 0.1%;
+    background: $scan-cash-color; /* Old browsers */
+    background: -moz-linear-gradient(top, $scan-cash-color 0%, $id-image-box-color 76%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, $scan-cash-color 0%,$id-image-box-color 76%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $scan-cash-color 0%,$id-image-box-color 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$scan-cash-color', endColorstr='$id-image-box-color',GradientType=0 ); /* IE6-9 */
+  }
+
+  .flipCheck-button {
+    text-align: center;
+    width: 11%;
+    height: 6%;
+    background-color: $flipCheck-button-background-color;
+    color: $flipCheck-button-color;
+    display: inline-block;
+
+    &:hover {
+      background-color: $flipCheck-button-background-color-hover;
+      color: $flipCheck-button-color-hover;
+    }
+  }
+
+  .verify-modal {
+    background-color: $wizard-modal-background-color;
+    position: fixed;
+    top: 0.1%;
+    left: 0.1%;
+    height: 100%;
+    width: 100%;
+    color: $wizard-modal-color;
+  }
+
+  .up-layer {
+    z-index: 100;
+  }
+
+  .up-layer2 {
+    z-index: 103;
+  }
+
+  .errors-reason {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .deposited-outer {
+    border: 0.1em solid $form-border-color;
+  }
+
+  .deposited-outer-cash {
+    border: 0.1em solid $base-primary-color;
+    min-height: 100%;
+    overflow: hidden;
+  }
+
+  .deposited-outer-check {
+    border: 0.1em solid $base-primary-color;
+    min-height: 100%;
+    overflow: auto;
+  }
+
+  .rounded-box {
+    font-size: 7.5em;
+    opacity: 0.5;
+    color: $scan-check-round-box-color;
+    position: absolute;
+    left: 20%;
+    top: 13%;
+  }
+
+  .scan-cash-denomination {
+    position: absolute;
+    z-index: 99;
+    bottom: 1%;
+    font-size: large;
+    color: $scan-cash-denomination-color;
+  }
+
+  .rounded-box-small {
+    font-size: 2em;
+    opacity: 0.5;
+    right: 1%;
+    line-height: 0.1%;
+    bottom: 0.1%;
+    position: absolute;
+    color: $scan-check-round-box-color;
+  }
+
+  .information-display {
+    display: flex;
+  }
+
+  .rejected-reason-container {
+    background-color: $rejected-reason-background-color;
+    color: $check-info-color;
+    margin: 0 auto;
+  }
+
+  .deposited-check-scroll {
+    max-height: 20em;
+    overflow-x: auto;
+
+    .scan-check-position {
+      position: absolute;
+      z-index: 99;
+      top: 10%;
+      font-size: x-large;
+      font-weight: bold;
+    }
+
+    .scan-thumbnail {
+      position: relative;
+      box-shadow: none;
+      border: none;
+    }
+
+    .verify-check-caption {
+      min-height: 3em;
+    }
+  }
+}

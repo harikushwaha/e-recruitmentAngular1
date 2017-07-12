@@ -1,0 +1,91 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _customerId.scss $
+ * $Author: Rohit S. Kondwilkar (DBD) (kondwr) $
+ * $Date: 2016/08/17 09:25:06EDT $
+ * $Revision: 1.4 $
+ *
+ ******************************************************************************/
+.customerid {
+
+  .id-image-box {
+    width: 320px;
+    height: 210px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 20px;
+    float: center;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 210px;
+    color: $id-image-box-color;
+  }
+
+  .button-approve {
+    background-color: $button-approve-background-color;
+    color: $button-approve-color;
+    width: 190px;
+    border-radius: 0px;
+    height: 56px;
+    font-size: 16px;
+    display: inline;
+  }
+
+  .button-not-approve {
+    background-color: $button-not-approve-background-color;
+    color: $button-not-approve-color;
+    width: 190px;
+    border-radius: 0px;
+    height: 56px;
+    font-size: 16px;
+    display: inline;
+  }
+
+  .driver-license-image {
+    height: 210px;
+  }
+
+  .approved-content {
+    margin-top: -272px;
+  }
+
+  .button-scan-margin {
+    margin-bottom: 0px;
+  }
+
+  .button-tertiary {
+    border: 2px solid $button-tertiary-border-color;
+    color: $button-tertiary-color;
+    background: $button-tertiary-background-color;
+  }
+
+  .button-tertiary:hover {
+    border: 2px solid $button-tertiary-hover-color;
+    color: $button-tertiary-hover-color;
+    background: $button-tertiary-background-color;
+  }
+
+  .button-tertiary:focus {
+    border: 2px solid $button-tertiary-hover-color;
+    color: $button-tertiary-hover-color;
+    background: $button-tertiary-background-color;
+  }
+
+  button.btn-tertiary:disabled, .btn-tertiary.disabled {
+    border: 2px solid $base-primary-color;
+    color: $base-primary-color;
+    background: $button-tertiary-background-color;
+  }
+
+  .button-not-approve:hover, .button-not-approve:focus, .button-not-approve.focus {
+    background-color: $button-not-approve-hover-color !important;
+  }
+
+  .button-approve:hover, .button-approve:focus, .button-approve.focus {
+    background-color: $button-approve-hover-color !important;
+  }
+}

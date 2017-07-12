@@ -1,0 +1,36 @@
+﻿/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _confirmFee.scss $
+ * $Author: Duke Wang (DWang) $
+ * $Date: 2016/09/01 16:44:25EDT $
+ * $Revision: 1.5 $
+ *
+ ******************************************************************************/
+.confirmfee {
+
+  .app-info-text {
+    font-size: 14px;
+    color: $textbox-control-color;
+    margin-top: 5px;
+  }
+
+  .textbox-confirmfee-info {
+    font-size: 18px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 5px;
+    padding-bottom: 0;
+    padding-top: 20px;
+    border-radius: 0px;
+  }
+
+  .textbox-control {
+    line-height: 1.42857143;
+    color: $textbox-control-color;
+    border: 1px solid $base-primary-color;
+  }
+}

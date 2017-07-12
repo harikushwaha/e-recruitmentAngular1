@@ -1,0 +1,276 @@
+/*****************************************************************************
+ *
+ * COPYRIGHT       :   COPYRIGHT PHOENIX INTERACTIVE DESIGN INC. 2015
+ *                     LICENSED MATERIAL - PROGRAM PROPERTY OF PHOENIX
+ *                     INTERACTIVE DESIGN INC. ALL RIGHTS RESERVED
+ *
+ * $Source: _sidenav.scss $
+ * $Author: Priyam Mittal (PMittal) $
+ * $Date: 2016/09/20 08:50:23EDT $
+ * $Revision: 1.16 $
+ *
+ ******************************************************************************/
+
+.side-nav-menu {
+
+    .done-save-button {
+        display: inline-block;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        border-radius: 4px;	
+        float: right;
+        background: $base-color;
+        color: $sidenav-btn-color;
+        font-size: 13px;
+        min-width: 43px;
+        min-height: 20px;
+        padding: .3rem .6rem;
+		
+        &:hover {
+            background: $base-color;
+            color: $sidenav-btn-color;
+        }
+    }
+
+    .done-save-button[disabled] {
+        cursor: not-allowed;
+    }
+
+    .full-width {
+        max-width: 91%;
+    }
+
+    .add-branch {
+        display: inline-block;
+        width: 200px;
+        margin-left: 250px;
+        font-size: 18px;
+        padding: 10px;
+        border: 4px solid $border-color;
+        .fa-plus {
+            font-size: 14px;
+            display: inline-block;
+            height: 10px;
+            line-height: normal;
+        }
+    }
+
+    .edit-branch {
+        padding: 10px;
+        padding-top: 5px;
+        min-height: 500px;
+        max-height: 90vh;
+        overflow: auto;
+        background: $sidenav-left-bg;
+        .header {
+            margin-bottom: 5px;
+            padding: 10px 5px;
+            font-weight: bold;
+            font-size: 16px;
+            background: $branch-header;
+            color: $default-text;
+            .title {
+                text-align: center;
+                line-height: 22px;
+            }
+
+            .fa {
+                font-size: 20px;
+                color: $default-text;
+            }
+
+            .btn-default {
+                float: right;
+                background: $sidenav-btn;
+                color: $sidenav-btn-color;
+                font-size: 13px;
+            }
+        }
+
+        .editable-input {
+            textarea {
+                width: 100%;
+                resize: none;
+            }
+        }
+
+        .branch-list {
+            display: block;
+            padding: 0px 0;
+            margin: 8px 0px;
+            border-top: 1px solid $list-border-color;
+            .md-button {
+                text-transform: none;
+                border-radius: 0px;
+                margin: 0px;
+                font-size: 15px;
+                text-align: left;
+                width: 100%;
+                font-weight: 400;
+                background: $branch-list-btn;
+                border-bottom: 1px solid $list-border-color;
+                color: $default-text;
+                .fa-angle-right {
+                    margin-top: 8px;
+                    font-size: 20px;
+                    margin-left: 12px;
+                }
+
+                .md-button.text-center {
+                    text-align: center;
+                }
+
+                .username-wrap {
+                    width: 150px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .editable-input {
+            padding: 10px;
+            margin-top: 12px;
+            margin: 0px;
+            background: $editable-input-bg;
+            textarea {
+                height: 140px;
+                border: 1px solid $textarea-border;
+            }
+        }
+
+        .editable-input.textBox {
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        md-input-container {
+            margin: 0px;
+            input[type=text] {
+                color: $input-color;
+                border-bottom: 1px solid $input-border;
+            }
+
+            .md-errors-spacer {
+                min-height: 0px;
+            }
+        }
+
+        .branch-ellipsis {
+        
+            .md-label {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 200px;
+            }
+        }
+
+        .checkbox-ellipsis {
+             text-overflow: ellipsis;
+             white-space: nowrap;
+             overflow: hidden;
+             max-width: 200px;
+        }
+    }
+
+    .edit-hours {
+        .day {
+            min-width: 78px;
+            display: inline-block;
+        }
+
+        md-select {
+            width: 20%;
+            display: inline-table;
+            margin: 10px 0px;
+            margin-left: 20px;
+            font-size: 11px;
+        }
+
+        .md-select-value .md-select-icon {
+            width: 9px;
+        }
+
+        .md-select-value .md-text{
+            line-height: 33px;
+        }
+    }
+
+    .md-open-menu-container {
+        .material-icons {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    }
+
+    .icon-link.back-link {
+        margin-right: 25px;
+        vertical-align: bottom;
+    }
+
+    .md-sidenav-left {
+        top: 0px;
+        position: absolute;
+    }
+
+    md-input-container.md-default-theme.md-input-invalid .md-input, md-input-container.md-input-invalid .md-input {
+        border: none;
+    }
+
+    textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .form-control:focus {
+        outline: none;
+        border-bottom: none;
+        box-shadow: 0 0 5px rgba(204, 204, 204, 1); 
+    }
+
+    .terminal-header {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding: 10px 5px;
+        font-weight: bold;
+        font-size: 16px;
+        background: $branch-header;
+        color: $default-text;
+        text-align: center;
+        line-height: 22px;
+    }
+}
+
+.md-sidenav-right {
+        top: 0px;
+        position: fixed;
+        padding: 10px;
+        width: 350px;
+        background:$base-color;
+		
+        .branch-wrap {
+            position: relative;
+        }
+        
+        md-content {
+            margin-top: 10px;
+        }
+        
+        form {
+            margin-bottom: 0px;
+        }
+        
+        .branch-name {
+            padding-left: 30px;
+            span.value {
+                margin-left: 80px;
+            }
+        }
+        
+        .logout {
+            margin-top: 20px;
+            a {
+                font-size: 20px;
+                color: $logout-link;
+            }
+        }
+    }
